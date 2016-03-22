@@ -1,0 +1,134 @@
+#nav-logo{
+  height: 30px;
+}
+
+.navbar-default {
+    border: 0px;
+    border-bottom: 1px solid #91d630;
+    border-radius: 0px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #00b7e8;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #fff;
+}
+
+hr {
+    margin-top: 10px;
+}
+/*panel*/
+
+
+.panel-group .panel-heading {
+    background-color: #00b7e8;
+    color: white;
+    border-radius: 4px;
+ 
+}
+.panel-body {
+    background-color: transparent;
+    color: white;
+}
+
+.panel {
+    background-color: transparent;
+    border: 0px;
+}
+
+.panel-title {
+    font-size: 16px;
+}
+
+
+/* well*/
+
+.well {
+    background-color: transparent;
+    border: 0px;
+    border-radius: 4px;
+    border-bottom: 5px solid #00b7e8;
+    border-radius: 0px;
+}
+#balance_well{
+  margin-top: -20px;
+  padding-bottom: 0px;
+  
+} 
+
+hr {
+    border-top: 1px solid #91d630;
+}
+
+
+@media (max-width: 400px) {
+ #balance_well{
+   margin-top: -30px;
+   padding-bottom: 0px;
+   
+ } 
+  
+}
+
+/* flash */
+.flash-outer{
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+  top: 60px;
+}
+.unobtrusive-flash-container{
+  width: 80%;
+  margin: 0px auto;
+  position: relative;
+}
+
+
+.sign_up_progress{
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+.panel-default>.panel-heading {
+    color: white;
+    background-color: transparent;
+    border-color: #91d630;
+}
+
+.team-photo{
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+#about-us h4{
+  color: #91d630;
+  margin-top: 30px;
+}
+.the-movie{
+  margin-bottom:50px;
+}
+.big-bump-down{
+  margin-top:50px;
+}
+.circle{
+  border-radius:800px;
+  width:100%;
+}
+.room-at-bottom{
+  margin-bottom:50px;
+}
+.bigger-font{
+  font-size: 1.4em;
+}
+
+
+.row-override{
+	padding: 34px 0px !important;
+}

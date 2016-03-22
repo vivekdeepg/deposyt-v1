@@ -1,0 +1,32 @@
+<div class="row row-first row-override" style="box-shadow: none !important; margin-top: 0px; margin-bottom: 50px">
+  <div class="container">
+    <div class="col-xs-12 col-sm-12 col-md-12">
+      
+      <%= image_tag "logo_deposyt.png", :title => "Deposyt", :class => "center-block logo wow zoomIn" %>
+      <h1 class="wow fadeIn text-center" data-wow-delay="0.5s"> Never run out of money </h1>
+      
+      <div class="col-xs-12 col-sm-6 col-md-6 wow fadeIn" data-wow-delay="1s">
+        <%= link_to("Join Us", static_join_path, class: "btn btn-success btn-large center-block") %>
+      </div>
+      
+      <div class="col-xs-12 col-sm-6 col-md-6 wow fadeIn" data-wow-delay="1s">
+        <%= link_to("Login", static_login_path, class: "btn btn-success btn-large center-block") %>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="row row-alt bleed row-override">
+
+  <div class="container">
+    <%= image_tag "phone.png", :title => "Phone", :class => "hero wow slideInUp" %> 
+  </div>
+
+  <h2 class="wow fadeIn text-center" data-wow-delay="0.5s"> Running low on cash at month end? Scared about unplanned expenses? Embarrassed to ask friends for money?</h2> 
+
+  <h2 class="wow fadeIn text-center" data-wow-delay="0.5s"> Worry no more, Deposyt has your back!</h2>
+
+</div>
+
+<%= render :partial => 'footer' %>
